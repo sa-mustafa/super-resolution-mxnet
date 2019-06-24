@@ -28,7 +28,7 @@ upscale_factor=2
 
 # Models are downloaded from https://github.com/WolframRhodium/Super-Resolution-Zoo
 model_file = 'models/LapSRN_2x' # or 'models/SRGAN_2x'
-image_file = 'D:/Downloads/Deep Learning/mxnet/Superresolution/super_res_input.jpg'
+image_file = opt.img;
 
 # Load the image
 img = Image.open(image_file).resize((224, 224));
